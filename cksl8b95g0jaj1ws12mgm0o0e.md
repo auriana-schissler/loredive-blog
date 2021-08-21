@@ -18,7 +18,8 @@ I'm going to be a bit ambitious here, but I don't work in half measures. Over ti
 We won't be going step by step through the entire development process, but I will be documenting good learning opportunities for various technologies. These will usually be collections of resources I found to figure out a problem, but the goal will always be to convey these learning opportunities as simply as possible. 
 
 ### What languages and software is going to be used?
-Currently the plan is for the frontend to use React with Typescript, the backend will be in Rust, media will be provided with Azure storage, and all other data will utilize PostgreSQL.
+Currently the plan is for the frontend to use React with Typescript, the backend will be in Rust, media will be provided with Azure storage, and all other data will utilize PostgreSQL. All builds will be automated from the start. 
+A hybrid TDD approach will be used, wherein important logic will be developed test-first, but UI will not.
 
 
 See you on the other side!
